@@ -40,3 +40,21 @@ A continuación ya podremos incluir una instancia de nuestro componente dentro d
 Cabe destacar que en este ejemplo el componente no requiere de parámetros, por tanto, al usuario le basta con declarar esta simple línea. En definitiva, utilizar este sencillo componente se realizaría de la forma:
 
 !["Nuestro primer componente"](images/html.png "Nuestro primer componente")
+
+Por último, analicemos el archivo JavaSript *ejemplo-1.js* que contiene el comportamiento de nuestro componente.
+Lo primero que debe contener es un *import* al archivo JavaScript que contiene la definición de la clase *PolymerElement*, de la cuál heredará todo componente de Polymer:
+```
+import {html, PolymerElement} from '@polymer/polymer/polymer-element.js';
+```
+A continuación se declara la herencia mencionada anteriormente y en ella definiremos mediante métodos la plantilla (template) y las propiedades (properties) de nuestro componente:
+* Plantilla: es lo que va a mostrar nuestro componente al navegador. Para ello utilizaremos lenguaje de marcado html y todo estará contenido en: 
+```
+return html ` [contenido] `
+```
+* Propiedades: son las propiedades o variables que empleará nuestro componente en sus métodos para su funcionamiento. Para mostrarlas en el html en la plantilla se invocarán de la siguiente manera: *[[propiedad]]*
+En este fichero también se encuentran los métodos que emplea nuestro componente como por ejemplo la función *click* en nuestro caso.
+Por último, para definir nuestro elemento como una nueva etiqueta de HTML debemos emplear: 
+```
+window.customElements.define('ejemplo-1', Ejemplo1);
+```
+De esta manera, en una simple línea como mostramos ya en el html podremos recurrir a la funcionalidad de nuestro componente.
