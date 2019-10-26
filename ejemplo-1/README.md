@@ -1,21 +1,10 @@
 # \<ejemplo-1\>
 
-Nuestro primer elemento en Polymer
+Nuestro primer elemento en Polymer es un simple mensaje de bienvenida que incluye un botón con el que podemos ir mostrando los elementos de la sucesión de Fibonacci conforme lo vamos pulsando.
+Con este ejemplo simplemente queremos mostrar lo simple que es realizar un elemento en Polymer y lo fácil que es compartirlo y reutilizarlo para cualquier programador que pueda estar interesado.
 
-## Install the Polymer-CLI
+## Cómo usar el componente
 
-First, make sure you have the [Polymer CLI](https://www.npmjs.com/package/polymer-cli) and npm (packaged with [Node.js](https://nodejs.org)) installed. Run `npm install` to install your element's dependencies, then run `polymer serve` to serve your element locally.
+En primer lugar, debe asegurarse de haber instalado Polymer CLI y npm. Tras esto, basta con realizar npm install en el directortio *ejemplo1* para instalar las dependencias necesarias para utilizar este componente. Para ver el componente en funcionamiento simplemente debe ejecutar el comando `polymer serve -o` para que se abra en su navegador.
 
-## Viewing Your Element
 
-```
-$ polymer serve
-```
-
-## Running Tests
-
-```
-$ polymer test
-```
-
-Your application is already set up to be tested via [web-component-tester](https://github.com/Polymer/web-component-tester). Run `polymer test` to run your application's test suite locally.
