@@ -29,11 +29,11 @@ Como se puede apreciar, se está utilizando el sistema de gestión de paquetes n
 
 !["Archivos generados por polymer-3-element"](images/5.png "Archivos generados por polymer-3-element")
 
-¡Ya tenemos listos nuestros ficheros para trabajar!. Pero... ¿cómo utilizo mi componente desde mi fichero html?. Es muy sencillo e intuitivo, solo tendremos que añadir un script en nuestro fichero html haciendo referencia a nuestro fichero Javascript que contiene la funcionalidad de nuestro componente, de la forma:
+¡Ya tenemos listos nuestros ficheros para trabajar!. Pero... ¿cómo utilizo mi componente desde mi fichero html?. Es muy sencillo e intuitivo, simplemente tendremos que añadir un script en nuestro fichero html haciendo referencia a nuestro fichero Javascript que contiene la funcionalidad de nuestro componente, de la forma:
 ```
 <script type="module" src="./ejemplo-1.js"></script>
 ```
-A continuación ya podremos incluir una instancia de nuestro componente dentro del cuerpo del html, en nuestro caso este se llamará de la forma:
+A continuación ya podremos incluir una instancia de nuestro componente dentro del cuerpo del html de manera muy similar a una etiqueta, en nuestro caso este se llamará de la forma:
 ```
 <ejemplo-1></ejemplo-1>
 ```
