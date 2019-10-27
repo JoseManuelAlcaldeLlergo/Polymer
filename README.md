@@ -4,4 +4,4 @@ Este es un repositorio dedicado a una simple introducción a los Web Components 
 
 # Autores
 José Manuel Alcalde Llergo
-Tomás Fernández Urbano (TomasFdez5)
+Tomás Fernández Urbano (@TomasFdez5)
