@@ -74,8 +74,7 @@ class Prueba2App extends PolymerElement {
           width: 250px;
           height: 160px;
         }
-
-        
+             
       </style>
 
       <div class="linea">
@@ -119,5 +118,8 @@ class Prueba2App extends PolymerElement {
     this.contador++;
   }
 }
+
+
+
 
 window.customElements.define('prueba-2-app', Prueba2App);
