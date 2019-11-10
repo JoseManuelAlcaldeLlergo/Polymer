@@ -24,7 +24,51 @@
 
     <script type="module" src="./prueba-2-app.js" crossorigin></script>
 
+    <style>
+       #CajaFormulario{
+          border: 1px solid black;
+          border-radius: 40px;
+          overflow: hidden;
+          box-shadow: 0 1px 4px 0 var(--shadow-color, hsla(0, 0%, 0%, 0.1)), 0 0px 4px 0 var(--shadow-color, hsla(0, 0%, 0%, 0.1)); 
+          width:23%;
+          padding: 1%;
+          text-align: center;
+          margin-left: 2%;
+          display: none;
+      }
+    </style>
 
+    <script>
+
+      function anadirCoche(){
+        
+        var name=document.getElementById("Modelo").value;
+        var shape=document.getElementById("icono").value;
+        var path=document.getElementById("ruta").value;
+        var cont=document.getElementById("contador").value;
+        var condicion=document.getElementById("linea").value;
+        var a;
+
+        if(condicion=='true'){
+          a=document.getElementById('linea3');
+          a.innerHTML+='<div class="linea"><prueba-2-app nombre="'+name+'" forma="'+shape+'" ruta="'+path+'" contador='+cont+'></prueba-2-app></div>';
+          console.log("ALLI");
+        }
+        else{
+          a=document.getElementById('linea2');
+          a.innerHTML+='<prueba-2-app nombre="'+name+'" forma="'+shape+'" ruta="'+path+'" contador='+cont+'></prueba-2-app>';
+          console.log("AQUI");
+        }
+        var p=document.getElementById("CajaFormulario");
+        p.style.display='none';
+        console.log(condicion);
+      }
+
+      function aparece(){
+        var p=document.getElementById("CajaFormulario");
+        p.style.display="block";
+      }
+    </script>
 
 
   </head>
@@ -36,24 +80,46 @@
       <paper-icon-button slot="top" icon="favorite"></paper-icon-button>
     </paper-toolbar>
 
-    <div class="linea">
-      <prueba-2-app nombre="Lamborghini Huracán 2014. LP 580-2." forma="favorite" ruta="./src/prueba-2-app/img/foto-1.jpeg" contador= 2></prueba-2-app>
-      <prueba-2-app nombre="Ferrari" forma="star" ruta="./src/prueba-2-app/img/foto-2.jpeg"></prueba-2-app>
-      <prueba-2-app nombre="Porshe" forma="thumb-up" ruta="./src/prueba-2-app/img/foto-3.jpg" contador= 12 ></prueba-2-app>
+  <div id="ejemploInsertar">
+      <div class="linea" id="linea1">
+        <prueba-2-app nombre="Lamborghini Huracán 2014. LP 580-2." forma="favorite" ruta="./src/prueba-2-app/img/foto-1.jpeg" contador= 2></prueba-2-app>
+        <prueba-2-app nombre="Ferrari" forma="star" ruta="./src/prueba-2-app/img/foto-2.jpeg"></prueba-2-app>
+        <prueba-2-app nombre="Porshe" forma="thumb-up" ruta="./src/prueba-2-app/img/foto-3.jpg" contador= 12 ></prueba-2-app>
+      </div>
+
+      <br/>
+
+      <div id="linea2" class="linea">
+        <prueba-2-app nombre="Volkswagen New Beetle" forma="cloud" ruta="./src/prueba-2-app/img/foto-4.jpg" contador= 5 ></prueba-2-app>
     </div>
 
-    <br/>
-
-    <div class="linea">
-      <prueba-2-app nombre="Volkswagen New Beetle" forma="lightbulb-outline" ruta="./src/prueba-2-app/img/foto-4.jpg" contador= 7></prueba-2-app>
-
+    <div id="linea3">
     </div>
+    
+  </div>
 
     <div id = "boton">
         <button id="btn">Siguiente</button>
         <paper-tooltip for="btn" position="left">He entendido el ejemplo</paper-tooltip>
     </div>
 
+    <div id="CajaFormulario">
+      <form id=RellenarDatos>
+        <p>Introduzca el modelo del coche</p>
+        <input type="text" id="Modelo" value=""/>
+        <p>Introduzca el icono del contador</p>
+        <input type="text" id="icono" value=""/>
+        <p>Introduzca la ruta de la imagen</p>
+        <input type="text" id="ruta" value=""/>
+        <p>Introduzca el contador inicial</p>
+        <input type="text" id="contador" value=""/>
+        <p>¿Lo quiere en una linea nueva?</p>
+        <input type="text" name="Radio"id="linea" value=""/>
+      </form>
+      <button id="boton_mas2" onclick="anadirCoche()">Agregar</button>
+        <paper-tooltip for="boton_mas" position="right">Agrega un nuevo coche a la galeria</paper-tooltip>
+    </div>
+    <button id="boton_aparece" onclick="aparece()">A&ntilde;adir</button>
 
   <dark-mode-toggle
       id="dark-mode-toggle-1"
@@ -63,6 +129,7 @@
       light="Light"
       remember="Remember this"
   ></dark-mode-toggle>
+
 
 
   </body>
