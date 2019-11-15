@@ -33,9 +33,11 @@ Por último, este componente tiene definida una funcion anónima la cual se enca
 ```
 Para ver mejor su funcionalidad, se dispone a continuación de un ejemplo:
 * Antes de clicar en el icono:
+
 !["Nuestro primer componente"](images/click1.png "Antes de clicar")
 
 * Después de clicar en el icono:
+
 !["Nuestro primer componente"](images/click2.png "Después de clicar")
 
 ### 4.2 Funcionalidad adicional
