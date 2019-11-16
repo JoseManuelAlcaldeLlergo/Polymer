@@ -42,8 +42,12 @@ Para ver mejor su funcionalidad, se dispone a continuación de un ejemplo:
 
 ### 4.2 Funcionalidad adicional
 
-En este apartado se explicarán algunas funcionalidades interesantes que se han añadido al ejemplo actual. Unicamente con la finalidad de mostrar como podemos combinar el uso de nuestros componentes creados con polymer con otros componentes ya creados o, incluso, funcionalidad que nosotros hemos creado con JavaScript:
+En este apartado se explicarán algunas funcionalidades interesantes que se han añadido al ejemplo actual. Unicamente con la finalidad de mostrar cómo podemos combinar el uso de nuestros componentes creados con polymer con otros componentes ya creados o, incluso, funcionalidad que nosotros hemos creado con JavaScript:
 
 * Modo noche o modo nocturno.
 
 * Añadir un coche en vivo.
+
+#### 4.2.3 Modo nocturno
+
+A continuación, veamos lo fácil que es reutilizar un componente ya creado por otro usuario. En nuestro caso, hemos elegido un componente llamado **dark-mode-toggle**, creado por GoogleChromeLabs, el cual nos permite con un simple botón poder cambiar el estilo de nuestra página web para intercambiar entre el modo normal y el modo nocturno (con colores más oscuros). Aquí el enlace del componente: https://www.webcomponents.org/element/dark-mode-toggle
