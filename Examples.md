@@ -54,6 +54,28 @@ A continuación, veamos lo fácil que es reutilizar un componente ya creado por 
 
 En el enlace se muestran todas las propiedades y posibilidades que tiene el componente, mientras que aquí nos centraremos principalmente en cómo lo hemos podido implementar con nuestro componente.
 
+En primer lugar, debemos añadir en nuestro package.js una línea con la dependencia del componente:
+```
+"dark-mode-toggle": "^0.4.12"
+```
+Una vez hecho esto, será necesario instalar las dependencias con el comando:
+```
+npm install --save dark-mode-toggle
+```
+A continuación tenemos que importarlo a nuestro componente añadiendo la línea en el prueba-2.js:
+```
+import * as DarkModeToggle from './node_modules/dark-mode-toggle';
+```
+Por último, para que nuestro index conozca los distintos estilos dependiendo de si es modo nocturno o diurno y pueda ejecutar la funcionalidad del dark-mode-toogle, debemos añadir:
+```
+<link rel="stylesheet" href="common.css">
+<link rel="stylesheet" href="light.css" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)">
+<link rel="stylesheet" href="dark.css" media="(prefers-color-scheme: dark)">
+    
+<script type="module" src=./node_modules/dark-mode-toggle/src/dark-mode-toggle.mjs/></script>
+```
+Con esto, usando las hojas de estilo que se aportan con el componente ya podríamos cambiar una página web básica a un modo nocturno. Para personalizar los estilos, se tiene que modificar el valor de las variables que emplearemos en el common.css dentro de light.css y dark.css, según el estilo que queramos dar en los distintos modos:
+
 Veamos el resultado:
 * Modo diurno:
 
@@ -62,3 +84,5 @@ Veamos el resultado:
 * Modo nocturno:
 
 !["Nuestro primer componente"](images/modo_nocturno.png "Modo nocturno")
+
+
