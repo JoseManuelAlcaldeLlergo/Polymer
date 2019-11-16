@@ -50,4 +50,15 @@ En este apartado se explicarán algunas funcionalidades interesantes que se han 
 
 #### 4.2.3 Modo nocturno
 
-A continuación, veamos lo fácil que es reutilizar un componente ya creado por otro usuario. En nuestro caso, hemos elegido un componente llamado **dark-mode-toggle**, creado por GoogleChromeLabs, el cual nos permite con un simple botón poder cambiar el estilo de nuestra página web para intercambiar entre el modo normal y el modo nocturno (con colores más oscuros). Aquí el enlace del componente: https://www.webcomponents.org/element/dark-mode-toggle
+A continuación, veamos lo fácil que es reutilizar un componente ya creado por otro usuario. En nuestro caso, hemos elegido un componente llamado **dark-mode-toggle**, creado por GoogleChromeLabs, el cual nos permite con un simple botón poder cambiar el estilo de nuestra página web para intercambiar entre el modo normal y el modo nocturno (con colores más oscuros). Aquí el enlace del componente: https://www.webcomponents.org/element/dark-mode-toggle.
+
+En el enlace se muestran todas las propiedades y posibilidades que tiene el componente, mientras que aquí nos centraremos principalmente en cómo lo hemos podido implementar con nuestro componente.
+
+Veamos el resultado:
+* Modo diurno:
+
+!["Nuestro primer componente"](images/modo_diurno.png "Modo diurno")
+
+* Modo nocturno:
+
+!["Nuestro primer componente"](images/modo_nocturno.png "Modo nocturno")
