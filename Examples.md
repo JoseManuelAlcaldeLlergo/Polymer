@@ -76,6 +76,14 @@ Por último, para que nuestro index conozca los distintos estilos dependiendo de
 ```
 Con esto, usando las hojas de estilo que se aportan con el componente ya podríamos cambiar una página web básica a un modo nocturno. Para personalizar los estilos, se tiene que modificar el valor de las variables que emplearemos en el common.css dentro de light.css y dark.css, según el estilo que queramos dar en los distintos modos:
 
+* light.css:
+
+!["Nuestro primer componente"](images/light.png "Modo diurno")
+
+* dark.css:
+
+!["Nuestro primer componente"](images/dark.png "Modo nocturno")
+
 Veamos el resultado:
 * Modo diurno:
 
