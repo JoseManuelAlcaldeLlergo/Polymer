@@ -48,7 +48,7 @@ En este apartado se explicarán algunas funcionalidades interesantes que se han 
 
 * Añadir un coche en vivo.
 
-#### 4.2.3 Modo nocturno
+#### 4.2.1 Modo nocturno
 
 A continuación, veamos lo fácil que es reutilizar un componente ya creado por otro usuario. En nuestro caso, hemos elegido un componente llamado **dark-mode-toggle**, creado por GoogleChromeLabs, el cual nos permite con un simple botón poder cambiar el estilo de nuestra página web para intercambiar entre el modo normal y el modo nocturno (con colores más oscuros). Aquí el enlace del componente: https://www.webcomponents.org/element/dark-mode-toggle.
 
