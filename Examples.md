@@ -78,11 +78,11 @@ Con esto, usando las hojas de estilo que se aportan con el componente ya podría
 
 * light.css:
 
-!["Nuestro primer componente"](images/light.png "Modo diurno")
+!["Nuestro primer componente"](images/lightstyle.png "Modo diurno")
 
 * dark.css:
 
-!["Nuestro primer componente"](images/dark.png "Modo nocturno")
+!["Nuestro primer componente"](images/darkstyle.png "Modo nocturno")
 
 Veamos el resultado:
 * Modo diurno:
