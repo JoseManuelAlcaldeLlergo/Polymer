@@ -114,7 +114,7 @@ class Prueba2App extends PolymerElement {
       }
     };
   }
-  function(tipo) {
+  function() {
     this.contador++;
   }
 }
