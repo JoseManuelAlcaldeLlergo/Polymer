@@ -1,6 +1,8 @@
 
 En este ejemplo se muestra la creación de un portal de imágenes utilizando diversos componentes disponibles en [polymer-proyect.org]. Para ello se ha modificado el comportamiento de nuestro componente prueba-2-app.js para que sea capaz de mostrar una foto de manera elegante y estructurada junto a un pequeño icono el cual actúa como contador de, por ejemplo, me gustas. A continuación se explicarán las principales directrices seguidas para realizar este ejemplo.
 
+[polymer-proyect.org]:https://www.polymer-project.org/
+
 ## 1. Componente
 
 En este caso, el componente se encarga de mostrar imágenes como se ha dicho previamente. Para ello se le han declarado una serie de propiedades necesarias para que este sea capaz de mostrar la imagen de forma idónea. Estas propiedades son:
@@ -96,7 +98,7 @@ A continuación, veamos el resultado:
 
 Para crear un nuevo componente de manera dinámica, mediante JavaScript hemos modificado el árbol DOM para mostrar un formulario, de manera que al rellenarlo se le envíen los datos a nuestro componente de Polymer y se muestre en la ventana. El código empleado es el siguiente:
 
-!["Mostrar nuevo marco"](funcionalidadComponente.png "Generar marco dinámicamente")
+!["Mostrar nuevo marco"](images/funcionalidadComponente.png "Generar marco dinámicamente")
 
 Básicamente, hemos creado dos funciones para lograr esto:
 * *anadirImagen()*: se encarga de asignar los valores del formulario a las variables que se le pasan a nuestro componente para mostrar la imagen.
