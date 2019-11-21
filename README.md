@@ -53,7 +53,34 @@ sudo npm install -g polymer-cli
 ```
 ## 2 Desplegar el tutorial
 
-Ahora que ya tenemos instalado Polymer en nuestro equipo vamos a ver cómo desplegar el tutorial que hemos desarrolado a partir del starter-kit de Polymer en el cual explicamos qué es Polymer, cómo comenzar a desarrollar componentes del mismo, cómo utilizar diferentes componentes para nuestros propios proyectos, así como qué ventajas e inconvenientes tiene frente a otras librerías. 
+Ahora que ya tenemos instalado Polymer en nuestro equipo vamos a ver cómo desplegar el tutorial que hemos desarrolado a partir del starter-kit de Polymer en el cual explicamos qué es Polymer, cómo comenzar a desarrollar componentes del mismo, cómo utilizar diferentes componentes para nuestros propios proyectos, así como qué ventajas e inconvenientes tiene frente a otras librerías.
+
+### 2.1 Clonar nuestro repositorio
+
+Lo primero que debemos hacer es dirgirnos a nuestro [repositorio]. A continuación, debemos clonar su contenido, lo cual podemos hacerlo de dos maneras:
+
+1. Descargar el comprimido con su contenido dandole a la opción *Clone or download* y seleccionar *DOWNLOAD ZIP*
+IMAGEN
+
+2. Clonarlo en tu propio repositorio local de Git. Para ello en la carpeta donde quieras inicializar el repositorio:
+
+* Abrir un terminal y ejecutar el comando ```git init```.
+* Ejecutar el comando ```git clone https://github.com/JoseManuelAlcaldeLlergo/Polymer.git```
+
+IMAGEN
+
+Una vez aquí, nos encontramos que en nuestra carpeta tenemos todos los archivos necesarios para realizar el tutorial y sus respectivos ejemplos.
+
+### 2.2 Desplegar el tutorial
+
+Para desplegar el tutorial, en el directorio *tutorial* debemos hacer:
+
+1. Abrir un terminal, y ejecutar el comando ```npm install``` para instalar las dependencias de Polymer necesarias. Esto puede tardar unos minutos.
+2. Ejecutar el comando ```polymer serve -o``` para abrir directamente nuestro tutorial en vuestro navegador predeterminado.
+
+Una vez hecho esto, tendrás acceso a nuestro tutorial, en el que podrás ver cómo hemos realizado cada uno de los distintos ejemplos que vas a encontrar en el repositorio que has clonado anteriormente.
+
+[repositorio]: https://github.com/JoseManuelAlcaldeLlergo/Polymer
 
 [W3C]: https://www.w3c.es 
 
