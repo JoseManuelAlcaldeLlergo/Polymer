@@ -19,8 +19,8 @@ Existen una serie de prerrequisitos para instalar la versión 3.0 de Polymer:
 
 Para instalar Git en nuestra máquina tendremos que utilizar los siguientes comandos:
 
-Actualizamos la lista de paquetes disponibles, así como sus versiones, y instalamos Git propiamente dicho.
-```sh
+Actualizamos la lista de paquetes disponibles, así como sus versiones, e instalamos Git propiamente dicho.
+```
 $ sudo apt update
 $ sudo apt install git
 ```
@@ -29,11 +29,11 @@ $ sudo apt install git
 
 Node Package Manager ([npm]) es el sistema de gestión de paquetes por defecto para Node.js, un entorno de ejecución para JavaScript. 
 Para instalarlo debemos utilizar el siguiente comando: 
-```sh
+```
 sudo apt install npm
 ```
 Pudiendo verificar que la instalación ha sido correcta con el comando:
-```sh
+```
 npm -v
 ```
 
@@ -41,7 +41,7 @@ npm -v
 
 [Node.js] es un entorno de ejecución de JavaScript pensado para construir aplicaciones en red escalables. 
 Para instalarlo emplearemos el comando:
-```sh
+```
 sudo apt install nodejs
 ```
 
