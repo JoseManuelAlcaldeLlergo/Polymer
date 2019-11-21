@@ -42,7 +42,7 @@ Para ver mejor su funcionalidad, se dispone a continuación de un ejemplo:
 
 ### 4.2 Funcionalidad adicional
 
-En este apartado se explicarán algunas funcionalidades interesantes que se han añadido al ejemplo actual. Unicamente con la finalidad de mostrar cómo podemos combinar el uso de nuestros componentes creados con polymer con otros componentes ya creados o, incluso, funcionalidad que nosotros hemos creado con JavaScript:
+En este apartado se explicarán algunas funcionalidades interesantes que se han añadido al ejemplo actual. Unicamente con la finalidad de mostrar cómo podemos combinar el uso de nuestros componentes creados con Polymer con otros componentes ya creados o, incluso, funcionalidad que nosotros hemos creado con JavaScript:
 
 * Modo noche o modo nocturno.
 
