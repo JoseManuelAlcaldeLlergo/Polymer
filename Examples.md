@@ -1,7 +1,7 @@
 
 En este ejemplo se muestra la creación de un portal de imágenes utilizando diversos componentes disponibles en [polymer-proyect.org]. Para ello se ha modificado el comportamiento de nuestro componente prueba-2-app.js para que sea capaz de mostrar una foto de manera elegante y estructurada junto a un pequeño icono el cual actúa como contador de, por ejemplo, me gustas. A continuación se explicarán las principales directrices seguidas para realizar este ejemplo.
 
-## 1 Componente
+## 1. Componente
 
 En este caso, el componente se encarga de mostrar imágenes como se ha dicho previamente. Para ello se le han declarado una serie de propiedades necesarias para que este sea capaz de mostrar la imagen de forma idónea. Estas propiedades son:
 
@@ -26,7 +26,7 @@ Una vez tenemos las propiedades que queremos, el componente tiene definido un es
 
 Por último, este componente tiene definida una función anónima la cual se encarga de aumentar el valor de la propiedad **contador** definida anteriormente. Esta función es utilizada como respuesta al evento *onclick* del botón con la forma del icono que nosotros hemos establecido previamente. Esta función es tan simple como:
 ```
-  function(tipo) {
+  function() {
     this.contador++;
   }
 ```
@@ -39,15 +39,15 @@ Para ver mejor su funcionalidad, se dispone a continuación de un ejemplo:
 
 !["Nuestro primer componente"](images/click2.png "Después de clicar")
 
-### 4.2 Funcionalidad adicional
+## 2. Funcionalidad adicional
 
-En este apartado se explicarán algunas funcionalidades interesantes que se han añadido al ejemplo actual. Unicamente con la finalidad de mostrar cómo podemos combinar el uso de nuestros componentes creados con Polymer con otros componentes ya creados o, incluso, funcionalidad que nosotros hemos creado con JavaScript:
+En este apartado se explicarán algunas funcionalidades interesantes que se han añadido al ejemplo actual. Únicamente con la finalidad de mostrar cómo podemos combinar el uso de nuestros componentes creados con Polymer con otros componentes ya creados y, por supuesto, con funcionalidades que nosotros hemos creado con JavaScript:
 
 * Modo noche o modo nocturno.
 
 * Añadir un coche en vivo.
 
-#### 4.2.1 Modo nocturno
+### 2.1 Modo nocturno
 
 A continuación, veamos lo fácil que es reutilizar un componente ya creado por otro usuario. En nuestro caso, hemos elegido un componente llamado **dark-mode-toggle**, creado por GoogleChromeLabs, el cual nos permite con un simple botón poder cambiar el estilo de nuestra página web para intercambiar entre el modo normal y el modo nocturno (con colores más oscuros). Aquí el enlace del componente: https://www.webcomponents.org/element/dark-mode-toggle.
 
@@ -65,7 +65,7 @@ A continuación tenemos que importarlo a nuestro componente añadiendo la línea
 ```
 import * as DarkModeToggle from './node_modules/dark-mode-toggle';
 ```
-Por último, para que nuestro index conozca los distintos estilos dependiendo de si es modo nocturno o diurno y pueda ejecutar la funcionalidad del dark-mode-toogle, debemos añadir:
+Por último, para que nuestro index conozca los distintos estilos dependiendo de si está seleccionado el modo nocturno o el diurno, y pueda ejecutar la funcionalidad del dark-mode-toogle, debemos añadir:
 ```
 <link rel="stylesheet" href="common.css">
 <link rel="stylesheet" href="light.css" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)">
@@ -73,23 +73,31 @@ Por último, para que nuestro index conozca los distintos estilos dependiendo de
     
 <script type="module" src=./node_modules/dark-mode-toggle/src/dark-mode-toggle.mjs/></script>
 ```
-Con esto, usando las hojas de estilo que se aportan con el componente ya podríamos cambiar una página web básica a un modo nocturno. Para personalizar los estilos, se tiene que modificar el valor de las variables que emplearemos en el common.css dentro de light.css y dark.css, según el estilo que queramos dar en los distintos modos:
+Con esto, usando las hojas de estilo que se aportan con el componente ya podríamos cambiar una página web básica a un modo nocturno. Para personalizar los estilos, se tendría que modificar el valor de las variables que emplearemos en el common.css dentro de light.css y dark.css. Nosotros en nuestro caso, tuvimos que crear una nueva variable (*backgroundText-color*) para ajustar el color de nuestro marco de imágenes según el estilo que le queríamos dar en los distintos modos:
 
 * light.css:
 
-!["Nuestro primer componente"](images/lightstyle.png "Modo diurno")
+!["light.css"](images/lightstyle.png "Modo diurno")
 
 * dark.css:
 
-!["Nuestro primer componente"](images/darkstyle.png "Modo nocturno")
+!["dark.css"](images/darkstyle.png "Modo nocturno")
 
-Veamos el resultado:
+A continuación, veamos el resultado:
 * Modo diurno:
 
-!["Nuestro primer componente"](images/modo_diurno.png "Modo diurno")
+!["Modo diurno"](images/modo_diurno.png "Modo diurno")
 
 * Modo nocturno:
 
-!["Nuestro primer componente"](images/modo_nocturno.png "Modo nocturno")
+!["Modo nocturno"](images/modo_nocturno.png "Modo nocturno")
 
+### 2.2 Funcionalidad JavaScript
 
+Para crear un nuevo componente de manera dinámica, mediante JavaScript hemos modificado el árbol DOM para mostrar un formulario, de manera que al rellenarlo se le envíen los datos a nuestro componente de Polymer y se muestre en la ventana. El código empleado es el siguiente:
+
+!["Mostrar nuevo marco"](funcionalidadComponente.png "Generar marco dinámicamente")
+
+Básicamente, hemos creado dos funciones para lograr esto:
+* *anadirImagen()*: se encarga de asignar los valores del formulario a las variables que se le pasan a nuestro componente para mostrar la imagen.
+* *aparece()*: se encarga de mostrar el formulario para introducir los datos de la imagen.
