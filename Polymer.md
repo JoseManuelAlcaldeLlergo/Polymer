@@ -27,55 +27,8 @@ Polymer tiene tres elementos principales enfocados en la creación de Web Compon
 * Una librería de elementos clasificados en varias áreas, en los cuales podremos basarnos para hacer nuestros componentes y hacer que nuestra página web tenga un comportamiento personalizado.
 
 
-## 2. ¿Cómo instalar Polymer?
-
-Existen una serie de prerrequisitos para instalar la versión 3.0 de Polymer:
-
-* Instalar Git.
-
-* Instalar npm y Node.js
-
-### 2.1 Instalar Git
-
-Para instalar Git en nuestra máquina tendremos que utilizar los siguientes comandos:
-
-Actualizamos la lista de paquetes disponibles, así como sus versiones, y instalamos Git propiamente dicho.
-```sh
-$ sudo apt update
-$ sudo apt install git
-```
-
-### 2.2 Instalar npm
-
-Node Package Manager ([npm]) es el sistema de gestión de paquetes por defecto para Node.js, un entorno de ejecución para JavaScript. 
-Para instalarlo debemos utilizar el siguiente comando: 
-```sh
-sudo apt install npm
-```
-Pudiendo verificar que la instalación ha sido correcta con el comando:
-```sh
-npm -v
-```
-
-### 2.3 Instalar Node.js
-
-[Node.js] es un entorno de ejecución de JavaScript pensado para construir aplicaciones en red escalables. 
-Para instalarlo emplearemos el comando:
-```sh
-sudo apt install nodejs
-```
-
-### 2.4 Instalar Polymer
-
-Como último paso vamos a instalar la interfaz por línea de comandos de Polymer (Polymer-CLI). Para ello lo haremos con el gestor de paquetes instalado previamente npm y realizaremos la instalación de manera global mediante la opción -g:
-```sh
-sudo npm install -g polymer-cli
-```
+## 2.Ventajas e inconvenientes
 
 [W3C]: https://www.w3c.es 
 
 [desarrollo declarativo]: https://prezi.com/7vcuauwjiqzf/programacion-declarativa-vs-programacion-imperativa/
-
-[npm]: https://devcode.la/blog/que-es-npm/
-
-[Node.js]: https://nodejs.org/es/about/
