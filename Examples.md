@@ -103,3 +103,5 @@ Para crear un nuevo componente de manera dinámica, mediante JavaScript hemos mo
 Básicamente, hemos creado dos funciones para lograr esto:
 * *anadirImagen()*: se encarga de asignar los valores del formulario a las variables que se le pasan a nuestro componente para mostrar la imagen.
 * *aparece()*: se encarga de mostrar el formulario para introducir los datos de la imagen.
+
+Con esto, finalmente hemos logrado mostrar un pequeño ejemplo sencillo de cómo un componente de Polymer puede integrarse y manipularse fácilmente en tus proyectos, dándole a los mismos un sin fin de funcionalidades añadiendo pocas líneas de código. 
