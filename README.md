@@ -1,7 +1,7 @@
 # Polymer
 
 Este es un repositorio dedicado a una simple introducción a los Web Components con Polymer. En él expondremos una serie de ejemplos con la finalidad de mostrar el potencial de esta herramienta y enseñar un poco cómo funciona.
-Este proyecto ha sido realizado por José Manuel Alcalde Llergo (JoseManuelAlcaldeLlergo) y Tomás Fernández Urbano (TomasFdez5), estudiantes del Grado en Ingeniería Informática de la Universidad de Córdoba.
+Este proyecto ha sido realizado por José Manuel Alcalde Llergo ([JoseManuelAlcaldeLlergo]) y Tomás Fernández Urbano ([TomasFdez5]), estudiantes del Grado en Ingeniería Informática de la Universidad de Córdoba.
 
 # Instalar tutorial
 
@@ -89,3 +89,7 @@ Una vez hecho esto, tendrás acceso a nuestro tutorial, en el que podrás ver c�
 [npm]: https://devcode.la/blog/que-es-npm/
 
 [Node.js]: https://nodejs.org/es/about/
+
+[JoseManuelAlcaldeLlergo]: https://github.com/JoseManuelAlcaldeLlergo?tab=repositories 
+
+[TomasFdez5]: https://github.com/TomasFdez5?tab=repositories
