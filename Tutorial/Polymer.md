@@ -26,6 +26,25 @@ Polymer tiene tres elementos principales enfocados en la creación de Web Compon
 
 * Una librería de elementos clasificados en varias áreas, en los cuales podremos basarnos para hacer nuestros componentes y hacer que nuestra página web tenga un comportamiento personalizado.
 
+### 1.4 Catálogo de elementos
+
+Polymer nos proporciona un amplio catálogo de elementos divididos en secciones para que podamos empezar explorandolos y probandolos para ver qué se puede hacer y cuá es su potencial. Estas secciones son:
+
+* **Fe: Iron Elements**: estos elementos forman parte del "core" de Polymer y generalmente están pensados para no usarlos de manera única, sino para usarlos en conjunto con otros. Por ejemplo encontraremos iconos, que podrías usar sueltos en una página, pero generalmente los combinarás con otros elementos para hacer barras de navegación, listas decoradas, etc.
+
+* **Md: Paper Elements**: es una lista de interfaces de usuario útiles para muchos tipos de proyectos. Están basados en la línea estética y funcional del "material design" de Google, por lo que ya nos ofrecen una buena base para poder hacer aplicaciones bastante atractivas visualmente. 
+
+* **GO: Google Web Components**: es un catálogo de componentes que forman un wrapper a diversas API de Google. Por ejemplo podemos usar esos "envoltorios" para crear mapas de Google, acceder a documentos de Drive, trabajar con calendarios, etc.
+
+* **Au: Gold Elements**: estos sirven específicamente para el comercio electrónico, formularios, sistemas de validación de tarjetas de crédito, etc. 
+
+* **Pt: Platinum Elements**: son elementos que sirven para asuntos relacionados con la operativa de aplicaciones para móviles. Como por ejemplo, poder trabajar offline y poder operar con la página aunque no se tenga conexión, trabajo con notificaciones, etc. 
+
+* **Mo: Molecules**: son envoltorios de librerías de terceros, para usar mediante la arquitectura de los componentes web.
+
+* **Ne: Neon Elements**: sirven para crear animación y efectos especiales en componentes. 
+
+!["Catálogo de elementos"](images/catalogo.jpg "Catálogo de elementos")
 
 ## 2.Ventajas e inconvenientes
 
