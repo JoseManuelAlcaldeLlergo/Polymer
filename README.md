@@ -60,14 +60,15 @@ Ahora que ya tenemos instalado Polymer en nuestro equipo vamos a ver cómo despl
 Lo primero que debemos hacer es dirgirnos a nuestro [repositorio]. A continuación, debemos clonar su contenido, lo cual podemos hacerlo de dos maneras:
 
 1. Descargar el comprimido con su contenido dandole a la opción *Clone or download* y seleccionar *DOWNLOAD ZIP*
-IMAGEN
+
+!["¡Descarga el zip!"](images/github.png "Descargar zip del repositorio")
 
 2. Clonarlo en tu propio repositorio local de Git. Para ello en la carpeta donde quieras inicializar el repositorio:
 
 * Abrir un terminal y ejecutar el comando ```git init```.
 * Ejecutar el comando ```git clone https://github.com/JoseManuelAlcaldeLlergo/Polymer.git```
 
-IMAGEN
+!["¡Descarga el zip!"](images/git-clone.png "Descargar zip del repositorio")
 
 Una vez aquí, nos encontramos que en nuestra carpeta tenemos todos los archivos necesarios para realizar el tutorial y sus respectivos ejemplos.
 
@@ -86,14 +87,15 @@ Una vez hecho esto, tendrás acceso a nuestro tutorial, en el que podrás ver c�
 
 * [dark-mode-toogle]: creado por GoogleChromeLabs, un componente que permite añadir un selector de modo diurno a modo nocturno con un simle click. Trabajaremos con ella en nuestro tutorial.
 
-!["Modo diurno"](images/gato-diurno.png "Antes de clicar") !["Modo nocturno"](images/gato-nocturno.png "Antes de clicar")
+!["Modo diurno"](images/gato-diurno.png "Modo diurno con dark-mode-toogle") !["Modo nocturno"](images/gato-nocturno.png "Modo nocturno activo con dark-toogle-mode")
 
 * [model-viewer]: permite renderizar modelos 3D de manera interactiva. 
 
-!["Modelo 3D de un astronauta"](images/astronauta.jpg "Antes de clicar")
+!["Modelo 3D de un astronauta"](images/astronauta.jpg "Modelo 3D de un astronautar")
 
 * [Tienda-online]: permite crear una tienda online completa mediante el uso de varios componentes creados en polymer.
 
+!["Tienda online"](images/tienda.png "Tienda online")
 
 [dark-mode-toogle]: https://www.webcomponents.org/element/dark-mode-toggle
 
