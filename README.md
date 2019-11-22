@@ -89,17 +89,22 @@ Una vez hecho esto, tendrás acceso a nuestro tutorial, en el que podrás ver c�
 
 [dark-mode-toogle]: creado por GoogleChromeLabs, un componente que permite añadir un selector de modo diurno a modo nocturno con un simle click. Trabajaremos con ella en nuestro tutorial.
 
+
 !["Modo diurno"](images/gato-diurno.png "Modo diurno con dark-mode-toogle") 
 
 !["Modo nocturno"](images/gato-nocturno.png "Modo nocturno activo con dark-toogle-mode")
+
 
 [model-viewer]: permite renderizar modelos 3D de manera interactiva. 
 
 !["Modelo 3D de un astronauta"](images/astronauta.png "Modelo 3D de un astronauta")
 
+
 [the shop app]: permite crear una tienda online completa mediante el uso de varios componentes creados en polymer.
 
 !["Tienda online"](images/tienda.png "Tienda online")
+
+
 
 [dark-mode-toogle]: https://www.webcomponents.org/element/dark-mode-toggle
 
