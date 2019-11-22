@@ -93,7 +93,7 @@ Una vez hecho esto, tendrás acceso a nuestro tutorial, en el que podrás ver c�
 
 [model-viewer]: permite renderizar modelos 3D de manera interactiva. 
 
-!["Modelo 3D de un astronauta"](images/astronauta.jpg "Modelo 3D de un astronautar")
+!["Modelo 3D de un astronauta"](images/astronauta.png "Modelo 3D de un astronauta")
 
 [the shop app]: permite crear una tienda online completa mediante el uso de varios componentes creados en polymer.
 
