@@ -18,5 +18,7 @@ Por último, solo nos falta crear nuestras propias vistas. Para ello, aprovecham
 
 !["Vista 2"](./images/vista-2.png "Vista 2 de nuestro tutorial")
 
+De esta manera, podemos ver que a partir del starter kit que nos aporta Polymer, es relativamente sencillo crear una aplicación funcional, que en nuestro caso nos permite documentar y mostrar un poco el potencial de esta herramienta.
+
 [wc-markdown]: https://www.webcomponents.org/element/@vanillawc/wc-markdown
 [vanillawc]: https://www.webcomponents.org/author/vanillawc
