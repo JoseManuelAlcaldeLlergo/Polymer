@@ -87,7 +87,7 @@ Polymer nos proporciona un amplio catálogo de elementos divididos en secciones 
 
 [desarrollo declarativo]: https://prezi.com/7vcuauwjiqzf/programacion-declarativa-vs-programacion-imperativa/
 
-## Casos de éxito
+## Caso de éxito
 
 ### Youtube
 
@@ -112,5 +112,25 @@ Referencias:
 
 [Artículo en un portal de noticias]: https://hub.packtpub.com/youtubes-polymer-redesign-doesnt-like-firefox-and-edge-browsers/
 
-## Google I/O
+## Caso de estudio
+### Polymer sustituirá a PHP
+
+El proyecto Polymer de Google creó la biblioteca de plantillas *lit-html* basada en JavaScript y lanzó más recientemente LitElement, una solución para crear componentes web rápidos y livianos. La solución de Google para plantillas es lit-html. La biblioteca de plantillas se introdujo por primera vez en 2017 en Polymer Summit. En febrero de 2019, Google anunció el lanzamiento de la versión de producción de LitElement.
+
+LitElement está diseñado para construir componentes independientes que se pueden usar en una multitud de entornos. A medida que la tendencia hacia la utilización de marcos, plantillas y componentes de JS continúa creciendo, lit-html y LitElement están bien posicionados para su adopción. Esto se debe a que Google los ha hecho compatibles con prácticamente cualquier entorno.
+
+Pero ¿será capaz de sustituir a PHP?. Recordemos que PHP es un lenguaje de script de código abierto que se mantiene activamente y es adecuado para el desarrollo web. Además las soluciones PHP existentes funcionan bien y son familiares para sus usuarios, por ejemplo *WordPress*. El **inconveniente** que presenta PHP es que solo puede ejecutarse en el servidor, lo que requiere que el navegador espere las respuestas del servidor antes de que pueda alterar el DOM (cambiar objetos en la página).
+
+Aún no se tiene claro si las ventajas que proporciona Polymer serán capaces de situarlo por delante de PHP pero lo que sí está claro es que a Polymer le queda futuro por adaptarse, evolucionar y asombrarnos con sus avances.
+
+Puedes ver el [artículo publicado] en el que Gray Norton, líder de ingeniería de software para Polymer en Google, comentó algunas opiniones.
+
+
+
+[Polymer Summit]: https://www.youtube.com/watch?v=ruql541T7gc
+
+[artículo publicado]: https://www.coywolf.news/webmaster/google-lit-templates-web-components/
+
+
+
 
