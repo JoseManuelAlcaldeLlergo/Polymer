@@ -87,6 +87,7 @@ class MyApp extends PolymerElement {
             <a name="view1" href="[[rootPath]]view1">Conoce Polymer</a>
             <a name="view2" href="[[rootPath]]view2">Primeros pasos</a>
             <a name="view3" href="[[rootPath]]view3">Nuestro primer componente</a>
+            <a name="view5" href="[[rootPath]]view5">Polymer starter kit</a>
             <a name="view4" href="[[rootPath]]view4">Autores</a>
           </iron-selector>
         </app-drawer>
@@ -106,6 +107,7 @@ class MyApp extends PolymerElement {
             <my-view2 name="view2"></my-view2>
             <my-view3 name="view3"></my-view3>
             <my-view4 name="view4"></my-view4>
+            <my-view5 name="view5"></my-view5>
             <my-view404 name="view404"></my-view404>
           </iron-pages>
         </app-header-layout>
@@ -135,10 +137,9 @@ class MyApp extends PolymerElement {
      // Show the corresponding page according to the route.
      //
      // If no page was found in the route data, page will be an empty string.
-     // Show 'view1' in that case. And if the page doesn't exist, show 'view404'.
     if (!page) {
       this.page = 'view1';
-    } else if (['view1', 'view2', 'view3', 'view4'].indexOf(page) !== -1) {
+    } else if (['view1', 'view2', 'view3', 'view4', 'view5'].indexOf(page) !== -1) {
       this.page = page;
     } else {
       this.page = 'view1';
@@ -167,6 +168,9 @@ class MyApp extends PolymerElement {
         break;
       case 'view4':
         import('./my-view4.js');
+        break;
+      case 'view5':
+        import('./my-view5.js');
         break;
       case 'view404':
         import('./my-view404.js');
