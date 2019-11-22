@@ -87,7 +87,7 @@ Una vez hecho esto, tendrás acceso a nuestro tutorial, en el que podrás ver c�
 
 ¿Y por qué usar Polymer? Con él podemos hacer multitud de cosas, desde componentes sencillos como los que expondremos en el tutorial hasta montar una tienda y modelar figuras en 3D. Veamos aquí algunos ejemplos del potencial que tiene:
 
-* [dark-mode-toogle] creado por GoogleChromeLabs, un componente que permite añadir un selector de modo diurno a modo nocturno con un simle click. Trabajaremos con ella en nuestro tutorial.
+* [dark-mode-toogle] creado por [GoogleChromeLabs], un componente que permite añadir un selector de modo diurno a modo nocturno con un simle click. Trabajaremos con ella en nuestro tutorial.
 
 
 !["Modo diurno"](images/gato-diurno.png "Modo diurno con dark-mode-toogle") 
@@ -95,7 +95,7 @@ Una vez hecho esto, tendrás acceso a nuestro tutorial, en el que podrás ver c�
 !["Modo nocturno"](images/gato-nocturno.png "Modo nocturno activo con dark-toogle-mode")
 
 
-* [model-viewer] permite renderizar modelos 3D de manera interactiva. 
+* [model-viewer] creadp por [GoogleWebComponets], permite renderizar modelos 3D de manera interactiva. 
 
 !["Modelo 3D de un astronauta"](images/astronauta.png "Modelo 3D de un astronauta")
 
@@ -110,7 +110,11 @@ Como podemos observar, con Polymer se pueden hacer todo tipo de aplicaciones y r
 
 [dark-mode-toogle]: https://www.webcomponents.org/element/dark-mode-toggle
 
+[GoogleChromeLabs]: https://www.webcomponents.org/author/GoogleChromeLabs
+
 [model-viewer]: https://www.webcomponents.org/element/@google/model-viewer
+
+[GoogleWebComponets]: https://www.webcomponents.org/element/@google/model-viewer
 
 [the shop app]: https://polymer-library.polymer-project.org/1.0/docs/apps/case-study 
 
