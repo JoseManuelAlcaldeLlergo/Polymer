@@ -44,7 +44,7 @@ Polymer nos proporciona un amplio catálogo de elementos divididos en secciones 
 
 * **Ne: Neon Elements**: sirven para crear animación y efectos especiales en componentes. 
 
-!["Catálogo de elementos"](images/catalogo.JPG "Catálogo de elementos")
+	!["Catálogo de elementos"](images/catalogo.JPG "Catálogo de elementos")
 
 ## 2.Ventajas e inconvenientes
 
