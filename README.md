@@ -13,7 +13,9 @@ Existen una serie de prerrequisitos para instalar la versión 3.0 de Polymer:
 
 * Instalar Git.
 
-* Instalar npm y Node.js
+* Instalar npm
+
+* Instalar Node.js
 
 ### 1.1 Instalar Git
 
