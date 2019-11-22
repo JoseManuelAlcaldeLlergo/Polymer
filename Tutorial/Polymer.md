@@ -67,3 +67,31 @@ Polymer tiene tres elementos principales enfocados en la creación de Web Compon
 [W3C]: https://www.w3c.es 
 
 [desarrollo declarativo]: https://prezi.com/7vcuauwjiqzf/programacion-declarativa-vs-programacion-imperativa/
+
+## Casos de éxito
+
+### Youtube
+
+Volviendo al año 2018, Google decidió presentar su nuevo diseño para mejorar la experiencia del usuario en su plataforma haciendo que resalte sus videos y creadores favoritos de una manera más fácil. Explicaron que aplicaron un *diseño de materiales* buscando unos principios clave para ellos:
+
+* Simplicidad 
+* Consistencia 
+* Belleza  
+
+Fue en este momento donde Polymer entró en escena. Google decidió utilizar Polymer ya que les permitía tener un desarrollo más rápido, nuevo e intuitivo, presentando alguna de sus características innovadoras desarrolladas en Polymer como fue **Dark Theme**.
+
+Pero... no todo fue bonito para Google ya que desde esta gran actualización de la plataforma fueron numerables las denuncias que tuvo el desarrollo seguido para actualizar Youtube ya que esto provocaba que funcionase de manera mucho más lenta cuando se usa desde los navegadores de la competencia. Pero Google a pesar de ello ganó clientes ya que necesitaban su navegador para ver Youtube, esta plataforma de video tan famosa y que todos conocemos. 
+
+Según Chris Peterson, Gerente de Programas Técnicos de Mozilla, todo esto fue una estrategia de Google para perjudicar a sus rivales. Él mismo propuso una solución a este problema y fue utilizar una extesión de Firefox o Edge que permite ejecutar la versión anterior de Yotube.
+
+Referencias:
+* [Youtube's official Blog].
+
+[Youtube's official Blog]: https://youtube.googleblog.com/2017/05/a-sneak-peek-at-youtubes-new-look-and.html 
+
+* [Artículo en un portal de noticias].
+
+[Artículo en un portal de noticias]: https://hub.packtpub.com/youtubes-polymer-redesign-doesnt-like-firefox-and-edge-browsers/
+
+## Google I/O
+
