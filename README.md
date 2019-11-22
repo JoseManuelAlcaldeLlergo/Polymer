@@ -80,6 +80,27 @@ Para desplegar el tutorial, en el directorio *tutorial* debemos hacer:
 
 Una vez hecho esto, tendrás acceso a nuestro tutorial, en el que podrás ver cómo hemos realizado cada uno de los distintos ejemplos que vas a encontrar en el repositorio que has clonado anteriormente.
 
+# Motivaciones
+
+¿Y por qué usar Polymer?. Con él podemos hacer multitud de cosas, desde componentes sencillos como los que expondremos en el tutorial hasta montar una tienda y modelar figuras en 3D. Veamos aquí algunos ejemplos del potencial que tiene:
+
+* [dark-mode-toogle]: creado por GoogleChromeLabs, un componente que permite añadir un selector de modo diurno a modo nocturno con un simle click. Trabajaremos con ella en nuestro tutorial.
+
+!["Modo diurno"](images/gato-diurno.png "Antes de clicar") !["Modo nocturno"](images/gato-nocturno.png "Antes de clicar")
+
+* [model-viewer]: permite renderizar modelos 3D de manera interactiva. 
+
+!["Modelo 3D de un astronauta"](images/astronauta.jpg "Antes de clicar")
+
+* [Tienda-online]: permite crear una tienda online completa mediante el uso de varios componentes creados en polymer.
+
+
+[dark-mode-toogle]: https://www.webcomponents.org/element/dark-mode-toggle
+
+[model-viewer]: https://www.webcomponents.org/element/@google/model-viewer
+
+[the shop app]: https://polymer-library.polymer-project.org/1.0/docs/apps/case-study 
+
 [repositorio]: https://github.com/JoseManuelAlcaldeLlergo/Polymer
 
 [W3C]: https://www.w3c.es 
