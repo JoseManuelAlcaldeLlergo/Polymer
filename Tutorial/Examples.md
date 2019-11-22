@@ -88,11 +88,11 @@ Con esto, usando las hojas de estilo que se aportan con el componente ya podría
 A continuación, veamos el resultado:
 * Modo diurno:
 
-!["Modo diurno"](images/modo_diurno.png "Modo diurno")
+!["Modo diurno"](images/modo_diurno.jpg "Modo diurno")
 
 * Modo nocturno:
 
-!["Modo nocturno"](images/modo_nocturno.png "Modo nocturno")
+!["Modo nocturno"](images/modo_nocturno.jpg "Modo nocturno")
 
 ### 2.2 Funcionalidad JavaScript
 
