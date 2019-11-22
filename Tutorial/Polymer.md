@@ -29,6 +29,41 @@ Polymer tiene tres elementos principales enfocados en la creación de Web Compon
 
 ## 2.Ventajas e inconvenientes
 
+### 2.1 Ventajas de usar Polymer 
+
+* Puedes crear tus propios Custom Elements: permite implementar la funcionalidad que se desee y bajo nuestro criterio a un componente, el cual se puede reutilizar en otros proyectos ya que es independiente del resto de aplicación. 
+
+
+* Te permite usar el Shadow DOM [^shadow] que permite encapsular  el  contenido de un Custom Element del resto y así evitar que sus estilos y código interactúen de forma no deseada con el resto del sitio de la aplicación.
+
+>  **¿Qué es el Shadow DOM?**
+
+ > **Shadow DOM** viene a ser el DOM “oculto", una capa que se introduce dentro del DOM del navegador y que “esconde" nuestros componentes de tal manera que todo elemento o script exterior a esta capa no podrá acceder a sus elementos interiores. Esto quiere decir que tendremos componentes encapsulados cuyas funciones y estilos no van a interferir en el resto de la aplicación.
+
+
+* **Más mantenible** ya que si se decidiera cambiar la funcionalidad de un componente  no hay que modificarlos en todos los sitios donde se utilice sino en el propio componente.
+
+* Nos permite compartirlos fácilmente a la comunidad para utilizarlos en otros proyectos así como utilizar componentes ya creados por la comunidad que tengan una funcionalidad que nos interese.
+ 
+* El hecho de que Polymer esté apoyada por Google y que esté basado en los estándares de la W3C, nos indica que tiene mucho margen para crecer y una larga vida.
+
+### 2.2 Algunas desventajas
+
+* Necesita de un Polyfill para ser compatible con todos los navegadores. 
+
+>  **¿Qué es un Polyfill?**
+
+ > Un **polyfill** es un fragmento de código utilizado para proporcionar una funcionalidad moderna en navegadores antiguos que no la admitían de forma nativa. En nuestro caso añadimos el componente que nos proporciona Polymer para ello:
+
+
+			<script src="node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js"></script>
+
+
+* Cuando se trata de desarrollar web complejas, Polymer necesita complementarse con otras herramientas para llegar a ser un entorno de trabajo íntegro.
+
+* El soporte de Web Components todavía es muy bajo. Solo Google Chrome los implementa totalmente.
+
+
 [W3C]: https://www.w3c.es 
 
 [desarrollo declarativo]: https://prezi.com/7vcuauwjiqzf/programacion-declarativa-vs-programacion-imperativa/
