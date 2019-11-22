@@ -93,7 +93,7 @@ Una vez hecho esto, tendrás acceso a nuestro tutorial, en el que podrás ver c�
 
 !["Modelo 3D de un astronauta"](images/astronauta.jpg "Modelo 3D de un astronautar")
 
-[Tienda-online]: permite crear una tienda online completa mediante el uso de varios componentes creados en polymer.
+[the shop app]: permite crear una tienda online completa mediante el uso de varios componentes creados en polymer.
 
 !["Tienda online"](images/tienda.png "Tienda online")
 
