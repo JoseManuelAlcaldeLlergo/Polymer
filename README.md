@@ -135,8 +135,6 @@ Como podemos observar, con Polymer se pueden hacer todo tipo de aplicaciones y r
 
 ## CC Attribution-ShareAlike 4.0 International
 
-To add a CC BY-SA License to your project, just add the following to your `README.md`.
-You should also copy the corresponding
 [license text file](https://github.com/santisoler/cc-licenses/blob/master/LICENSE-CC-BY-SA)
 and rename it to `LICENSE`.
 
