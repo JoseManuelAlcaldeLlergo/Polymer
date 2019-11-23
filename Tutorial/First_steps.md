@@ -66,7 +66,7 @@ A continuación vamos a crear nuestro propio elemento, ejemplo-1, cuya finalidad
 
 Como se puede apreciar, se está utilizando el sistema de gestión de paquetes npm que hemos instalado previamente, para instalar las dependencias que se requieren. Una vez terminada la instalación se nos generan varios ficheros en nuestro directorio:
 
-* **package.json**: contiene la información acerca de las dependencias (ficheros y librerías de terceros) que estamos utilizando en el proyecto. Este ficher es el que indicará a npm las dependencias que debe instalar para poder lanzar correctamente la aplicación de Polymer.
+* **package.json**: contiene la información acerca de las dependencias (ficheros y librerías de terceros) que estamos utilizando en el proyecto. Este fichero es el que indicará a npm las dependencias que debe instalar para poder lanzar correctamente la aplicación de Polymer.
 
 * **polymer.json**: información para que la interfaz de polymer sepa cómo es nuestro proyecto.
 
@@ -78,7 +78,7 @@ Como se puede apreciar, se está utilizando el sistema de gestión de paquetes n
 
 !["Archivos generados por polymer-3-element"](images/5.png "Archivos generados por polymer-3-element")
 
-¡Ya tenemos listos nuestros ficheros para trabajar!. Pero... ¿cómo utilizo mi componente desde mi fichero html?. Es muy sencillo e intuitivo, simplemente tendremos que añadir un script en nuestro fichero html haciendo referencia a nuestro fichero Javascript que contiene la funcionalidad de nuestro componente, de la forma:
+¡Ya tenemos listos nuestros ficheros para trabajar!. Pero... ¿cómo utilizo mi componente desde mi fichero html?. Es muy sencillo e intuitivo, simplemente tendremos que añadir un script en nuestro fichero html haciendo referencia a nuestro fichero Javacript que contiene la funcionalidad de nuestro componente, de la forma:
 ```
 <script type="module" src="./ejemplo-1.js"></script>
 ```
@@ -106,6 +106,10 @@ Por último, para definir nuestro elemento como una nueva etiqueta de html debem
 ```
 window.customElements.define('ejemplo-1', Ejemplo1);
 ```
+A continuación podemos ver el contenido del fichero completo:
+
+!["ejemplo-1.js"](images/ejemplo-1js.png "ejemplo-1.js")
+
 De esta manera, en una simple línea como mostramos ya en el html podremos recurrir a la funcionalidad de nuestro componente.
 
 [npm]: https://devcode.la/blog/que-es-npm/
