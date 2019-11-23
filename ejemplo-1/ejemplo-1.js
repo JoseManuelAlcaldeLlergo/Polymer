@@ -9,7 +9,7 @@ class Ejemplo1 extends PolymerElement {
         }
       </style>
       <h1>Bienvenidos a nuestro tutorial!!</h1>
-      <h2>Iteraci&oacute;n [[contador]] de la sucesión: [[prop1]],[[prop2]].</h2>
+      <h2>Iteraci&oacute;n [[contador]] de la sucesión: [[resultado]].</h2>
       <button on-click="click">Dame otro elemento</button>
     `;
   }
@@ -30,8 +30,11 @@ class Ejemplo1 extends PolymerElement {
       contador: {
         type: Number,
         value: 0
+      },
+      resultado: {
+        type: String,
+        value: "0, 1"
       }
-
     };
   }
   click(){
@@ -39,6 +42,7 @@ class Ejemplo1 extends PolymerElement {
       this.prop2=this.prop1+this.prop2;
       this.prop1=this.aux;
       this.contador++;
+      this.resultado+=", "+this.prop2;
   }
 }
 
