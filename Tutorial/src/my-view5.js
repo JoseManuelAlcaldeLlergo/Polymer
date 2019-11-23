@@ -19,7 +19,7 @@ class MyView5 extends PolymerElement {
       </style>
 
       <div class="card">
-        <div class="circle">5</div>
+        <div class="circle">4</div>
         <h1>Creando a partir del polymer starter kit</h1>
         <wc-markdown src="./Tutorial.md"></wc-markdown>
       </div>
