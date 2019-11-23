@@ -28,21 +28,21 @@ Polymer tiene tres elementos principales enfocados en la creación de Web Compon
 
 ### 1.4 Catálogo de elementos
 
-Polymer nos proporciona un amplio catálogo de elementos divididos en secciones para que podamos empezar explorandolos y probandolos para ver qué se puede hacer y cuá es su potencial. Estas secciones son:
+Polymer nos proporciona un amplio catálogo de elementos divididos en secciones para que podamos empezar explorándolos y probándolos para ver qué se puede hacer y cuá es su potencial. Estas secciones son:
 
-* **Fe: Iron Elements**: estos elementos forman parte del "core" de Polymer y generalmente están pensados para no usarlos de manera única, sino para usarlos en conjunto con otros. Por ejemplo encontraremos iconos, que podrías usar sueltos en una página, pero generalmente los combinarás con otros elementos para hacer barras de navegación, listas decoradas, etc.
+* **Fe: Iron Elements**: estos elementos forman parte del "core" de Polymer y generalmente están pensados para no usarlos de manera única, sino para usarlos en conjunto con otros. Por ejemplo encontraremos iconos, que podrías utilizar de manera independiente en una página, pero generalmente se combinan con otros elementos para hacer barras de navegación, listas decoradas, etc.
 
 * **Md: Paper Elements**: es una lista de interfaces de usuario útiles para muchos tipos de proyectos. Están basados en la línea estética y funcional del "material design" de Google, por lo que ya nos ofrecen una buena base para poder hacer aplicaciones bastante atractivas visualmente. 
 
-* **GO: Google Web Components**: es un catálogo de componentes que forman un wrapper a diversas API de Google. Por ejemplo podemos usar esos "envoltorios" para crear mapas de Google, acceder a documentos de Drive, trabajar con calendarios, etc.
+* **GO: Google Web Components**: es un catálogo de componentes que forman un wrapper a diversas API de Google. Por ejemplo podemos usar estos "envoltorios" para crear mapas de Google, acceder a documentos de Drive, trabajar con calendarios, etc.
 
 * **Au: Gold Elements**: estos sirven específicamente para el comercio electrónico, formularios, sistemas de validación de tarjetas de crédito, etc. 
 
-* **Pt: Platinum Elements**: son elementos que sirven para asuntos relacionados con la operativa de aplicaciones para móviles. Como por ejemplo, poder trabajar offline y poder operar con la página aunque no se tenga conexión, trabajo con notificaciones, etc. 
+* **Pt: Platinum Elements**: son elementos que sirven para asuntos relacionados con la operativa de aplicaciones para móviles, como por ejemplo, poder trabajar offline y poder operar con la página aunque no se tenga conexión, trabajar con notificaciones, etc. 
 
-* **Mo: Molecules**: son envoltorios de librerías de terceros, para usar mediante la arquitectura de los componentes web.
+* **Mo: Molecules**: son envoltorios de librerías de terceros, para usar mediante la arquitectura de los web components.
 
-* **Ne: Neon Elements**: sirven para crear animación y efectos especiales en componentes. 
+* **Ne: Neon Elements**: sirven para crear animaciones y efectos especiales en los componentes. 
 
 	!["Catálogo de elementos"](images/catalogo.JPG "Catálogo de elementos")
 
@@ -53,18 +53,18 @@ Polymer nos proporciona un amplio catálogo de elementos divididos en secciones 
 * Puedes crear tus propios Custom Elements: permite implementar la funcionalidad que se desee y bajo nuestro criterio a un componente, el cual se puede reutilizar en otros proyectos ya que es independiente del resto de aplicación. 
 
 
-* Te permite usar el Shadow DOM [^shadow] que permite encapsular  el  contenido de un Custom Element del resto y así evitar que sus estilos y código interactúen de forma no deseada con el resto del sitio de la aplicación.
+* Utiliza el Shadow DOM, que permite encapsular  el  contenido de un Custom Element del resto y así evitar que sus estilos y código interactúen de forma no deseada con el resto de la aplicación.
 
 >  **¿Qué es el Shadow DOM?**
 
  > **Shadow DOM** viene a ser el DOM “oculto", una capa que se introduce dentro del DOM del navegador y que “esconde" nuestros componentes de tal manera que todo elemento o script exterior a esta capa no podrá acceder a sus elementos interiores. Esto quiere decir que tendremos componentes encapsulados cuyas funciones y estilos no van a interferir en el resto de la aplicación.
 
 
-* **Más mantenible** ya que si se decidiera cambiar la funcionalidad de un componente  no hay que modificarlos en todos los sitios donde se utilice sino en el propio componente.
+* **Más mantenible** ya que si se decidiera cambiar la funcionalidad de un componente no hay que modificarlos en todos los lugares donde se utilice, sino sólo en el propio componente.
 
-* Nos permite compartirlos fácilmente a la comunidad para utilizarlos en otros proyectos así como utilizar componentes ya creados por la comunidad que tengan una funcionalidad que nos interese.
+* Nos permite compartir nuestros componentes fácilmente a la comunidad para utilizarlos en otros proyectos así como utilizar otros ya creados por la comunidad que tengan una funcionalidad que nos interese.
  
-* El hecho de que Polymer esté apoyada por Google y que esté basado en los estándares de la W3C, nos indica que tiene mucho margen para crecer y una larga vida.
+* El hecho de que Polymer esté apoyada por Google y que esté basado en los estándares de la W3C, nos indica que tendrá mucho margen para crecer, así como una larga vida.
 
 ### 2.2 Algunas desventajas
 
@@ -80,7 +80,9 @@ Polymer nos proporciona un amplio catálogo de elementos divididos en secciones 
 
 * Cuando se trata de desarrollar web complejas, Polymer necesita complementarse con otras herramientas para llegar a ser un entorno de trabajo íntegro.
 
-* El soporte de Web Components todavía es muy bajo. Solo Google Chrome los implementa totalmente.
+* El soporte de Web Components todavía es muy bajo. Sólo Google Chrome los implementa totalmente.
+
+* Como Web Components es un estandar que esta aún en desarrollo, es muy probables que las aplicaciones que se realicen ahora mismo con Polymer se tengan que estar actualizando y modificando a menudo.
 
 
 [W3C]: https://www.w3c.es 
