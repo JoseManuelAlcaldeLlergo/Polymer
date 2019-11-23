@@ -36,7 +36,7 @@ class MyApp extends PolymerElement {
     return html`
       <style>
         :host {
-          --app-primary-color: linear-gradient(blue,white,pink);
+          --app-primary-color: linear-gradient(#5dade2,#d7bde2);
           --app-secondary-color: black;
 
           display: block;
@@ -88,6 +88,8 @@ class MyApp extends PolymerElement {
             <a name="view2" href="[[rootPath]]view2">Primeros pasos</a>
             <a name="view3" href="[[rootPath]]view3">Nuestro primer componente</a>
             <a name="view5" href="[[rootPath]]view5">Polymer starter kit</a>
+            <a name="view6" href="[[rootPath]]view6">Casos de &eacute;xito y estudio</a>
+            <a name="view7" href="[[rootPath]]view7">Referencias de inter&eacute;s</a>
             <a name="view4" href="[[rootPath]]view4">Autores</a>
           </iron-selector>
         </app-drawer>
@@ -108,6 +110,8 @@ class MyApp extends PolymerElement {
             <my-view3 name="view3"></my-view3>
             <my-view4 name="view4"></my-view4>
             <my-view5 name="view5"></my-view5>
+            <my-view6 name="view6"></my-view6>
+            <my-view7 name="view7"></my-view7>
             <my-view404 name="view404"></my-view404>
           </iron-pages>
         </app-header-layout>
@@ -139,7 +143,7 @@ class MyApp extends PolymerElement {
      // If no page was found in the route data, page will be an empty string.
     if (!page) {
       this.page = 'view1';
-    } else if (['view1', 'view2', 'view3', 'view4', 'view5'].indexOf(page) !== -1) {
+    } else if (['view1', 'view2', 'view3', 'view4', 'view5', 'view6', 'view7'].indexOf(page) !== -1) {
       this.page = page;
     } else {
       this.page = 'view1';
@@ -171,6 +175,12 @@ class MyApp extends PolymerElement {
         break;
       case 'view5':
         import('./my-view5.js');
+        break;
+      case 'view6':
+        import('./my-view6.js');
+        break;
+      case 'view7':
+        import('./my-view7.js');
         break;
       case 'view404':
         import('./my-view404.js');
