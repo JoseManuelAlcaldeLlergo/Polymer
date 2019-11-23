@@ -107,3 +107,6 @@ Por último, para definir nuestro elemento como una nueva etiqueta de html debem
 window.customElements.define('ejemplo-1', Ejemplo1);
 ```
 De esta manera, en una simple línea como mostramos ya en el html podremos recurrir a la funcionalidad de nuestro componente.
+
+[npm]: https://devcode.la/blog/que-es-npm/
+[Node.js]: https://nodejs.org/es/about/
