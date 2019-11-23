@@ -1,5 +1,5 @@
 
-En este ejemplo se muestra la creación de un portal de imágenes utilizando diversos componentes disponibles en [polymer-proyect.org]. Para ello se ha modificado el comportamiento de nuestro componente prueba-2-app.js para que sea capaz de mostrar una foto de manera elegante y estructurada junto a un pequeño icono el cual actúa como contador de, por ejemplo, me gustas. A continuación se explicarán las principales directrices seguidas para realizar este ejemplo.
+En este ejemplo se muestra la creación de un portal de imágenes utilizando diversos componentes disponibles en [polymer-proyect.org]. Para ello se ha modificado el comportamiento de nuestro componente prueba-2-app.js para que sea capaz de mostrar una foto de manera elegante y estructurada junto a un pequeño icono el cual actúa como contador de, por ejemplo, me gustas. A continuación, se explicarán las principales directrices seguidas para realizar este ejemplo.
 
 [polymer-proyect.org]:https://www.polymer-project.org/
 
@@ -22,7 +22,7 @@ Pero... ¿cómo le mandamos estos parámetros a mi componente?. Para ello establ
 <prueba-2-app nombre="Ferrari" forma="star" ruta="../ruta/imagen" contador="5"></prueba-2-app>
 ```
 
-Una vez tenemos las propiedades que queremos, el componente tiene definido un estilo en CSS para mostrar la imagen de manera elegante y estructurada. Es un estilo sencillo e intuitivo para que sea lo más inteligible posible y centrarnos en la complejidad del componente en si. Cualquier duda sobre el código CSS se podrá consultar fácilmente en [W3C].
+Una vez tenemos las propiedades que queremos, el componente tiene definido un estilo en CSS para mostrar la imagen de manera elegante y estructurada. Es un estilo sencillo e intuitivo para que sea lo más inteligible posible y centrarnos en la complejidad del componente en sí. Cualquier duda sobre el código CSS se podrá consultar fácilmente en [W3C].
 
 [W3C]:https://www.w3schools.com/css/
 
@@ -43,7 +43,7 @@ Para ver mejor su funcionalidad, se dispone a continuación de un ejemplo:
 
 ## 2. Funcionalidad adicional
 
-En este apartado se explicarán algunas funcionalidades interesantes que se han añadido al ejemplo actual. Únicamente con la finalidad de mostrar cómo podemos combinar el uso de nuestros componentes creados con Polymer con otros componentes ya creados y, por supuesto, con funcionalidades que nosotros hemos creado con JavaScript:
+En este apartado se explicarán algunas funcionalidades interesantes que se han añadido al ejemplo actual únicamente con la finalidad de mostrar cómo podemos combinar el uso de nuestros componentes creados con Polymer con otros componentes ya creados y, por supuesto, con funcionalidades que nosotros hemos creado con JavaScript:
 
 * Modo noche o modo nocturno.
 
@@ -53,10 +53,10 @@ En este apartado se explicarán algunas funcionalidades interesantes que se han 
 
 A continuación, veamos lo fácil que es reutilizar un componente ya creado por otro usuario. En nuestro caso, hemos elegido un componente llamado [dark-mode-toggle], creado por [GoogleChromeLabs], el cual nos permite con un simple botón poder cambiar el estilo de nuestra página web para intercambiar entre el modo normal y el modo nocturno (con colores más oscuros).
 
-[dark-mode-toogle]: https://www.webcomponents.org/element/dark-mode-toggle
+[dark-mode-toggle]: https://www.webcomponents.org/element/dark-mode-toggle
 [GoogleChromeLabs]: https://www.webcomponents.org/author/GoogleChromeLabs
 
-En el enlace se muestran todas las propiedades y posibilidades que tiene el componente, mientras que aquí nos centraremos principalmente en cómo lo hemos podido implementar con nuestro componente.
+En el enlace [dark-mode-toggle] se muestran todas las propiedades y posibilidades que tiene el componente, mientras que aquí nos centraremos principalmente en cómo lo hemos podido implementar con nuestro componente.
 
 En primer lugar, debemos añadir en nuestro package.js una línea con la dependencia del componente:
 ```
@@ -107,4 +107,4 @@ Básicamente, hemos creado dos funciones para lograr esto:
 * *anadirImagen()*: se encarga de asignar los valores del formulario a las variables que se le pasan a nuestro componente para mostrar la imagen.
 * *aparece()*: se encarga de mostrar el formulario para introducir los datos de la imagen.
 
-Con esto, finalmente hemos logrado mostrar un pequeño ejemplo sencillo de cómo un componente de Polymer puede integrarse y manipularse fácilmente en tus proyectos, dándole a los mismos un sin fin de funcionalidades añadiendo pocas líneas de código. 
+Con esto, finalmente hemos logrado mostrar un pequeño ejemplo sencillo de cómo un componente de Polymer puede integrarse y manipularse fácilmente en tus proyectos, dándole a los mismos un sin fin de funcionalidades con el simple hecho de añadir unas pocas líneas de código. 
