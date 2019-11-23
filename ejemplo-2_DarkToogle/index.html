@@ -36,6 +36,9 @@
           margin-left: 2%;
           display: none;
       }
+      #boton{
+      	margin-left: 3%;
+      }
     </style>
 
     <script>
@@ -103,11 +106,6 @@
     
   </div>
 
-    <div id = "boton">
-        <button id="btn">Siguiente</button>
-        <paper-tooltip for="btn" position="left">He entendido el ejemplo</paper-tooltip>
-    </div>
-
     <div id="CajaFormulario">
       <form id=RellenarDatos>
         <p>Introduzca el modelo del coche</p>
@@ -121,10 +119,10 @@
         <p>¿Lo quiere en una linea nueva?</p>
         <input type="text" name="Radio"id="linea" value=""/>
       </form>
-      <button id="boton_mas2" onclick="anadirImagen()">Agregar</button>
-        <paper-tooltip for="boton_mas" position="right">Agrega un nuevo coche a la galeria</paper-tooltip>
+      <button id="boton" onclick="anadirImagen()">Agregar</button>
+      <paper-tooltip for="boton_mas" position="right">Agrega un nuevo coche a la galeria</paper-tooltip>
     </div>
-    <button id="boton_aparece" onclick="aparece()">A&ntilde;adir</button>
+    <button id="boton" onclick="aparece()">A&ntilde;adir</button>
 
 
 
