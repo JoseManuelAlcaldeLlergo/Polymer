@@ -110,7 +110,7 @@ A continuación podemos ver el contenido del fichero completo:
 
 !["ejemplo-1.js"](images/ejemplo-1js.png "ejemplo-1.js")
 
-De esta manera, en una simple línea como mostramos ya en el html podremos recurrir a la funcionalidad de nuestro componente.
+De esta manera en una simple línea, como mostramos ya en el html, podremos recurrir a la funcionalidad que ofrece nuestro componente.
 
 [npm]: https://devcode.la/blog/que-es-npm/
 [Node.js]: https://nodejs.org/es/about/
