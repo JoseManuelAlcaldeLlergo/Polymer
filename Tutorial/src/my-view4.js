@@ -36,7 +36,7 @@ class MyView4 extends PolymerElement {
         <p>Estudiante de Ingenier&iacute;a Inform&aacute;tica en la Universidad de C&oacute;rdoba (UCO). </p>
         <div id="redes">
           <p><img src="./src/img/correo.png" id="icono">  i72alllj@uco.es</p>
-          <p><img src="./src/img/github.png" id="icono"><a href="https://github.com/JoseManuelAlcaldeLlergo</a>  JoseManuelAlcaldeLlergo</p>
+          <p><img src="./src/img/github.png" id="icono"> <a href="https://github.com/JoseManuelAlcaldeLlergo">JoseManuelAlcaldeLlergo</a></p>
         </div>
       </div>
 
