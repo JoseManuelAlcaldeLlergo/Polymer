@@ -135,9 +135,6 @@ Como podemos observar, con Polymer se pueden hacer todo tipo de aplicaciones y r
 
 ## CC Attribution-ShareAlike 4.0 International
 
-[license text file](https://github.com/santisoler/cc-licenses/blob/master/LICENSE-CC-BY-SA)
-and rename it to `LICENSE`.
-
 Shield: [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
 
 This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0
