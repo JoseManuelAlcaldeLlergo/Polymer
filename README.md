@@ -100,11 +100,11 @@ Una vez hecho esto, tendrás acceso a nuestro tutorial, en el que podrás ver c�
 !["Modelo 3D de un astronauta"](images/astronauta.png "Modelo 3D de un astronauta")
 
 
-* [the shop app] permite crear una tienda online completa mediante el uso de varios componentes creados en polymer.
+* [the shop app] permite crear una tienda online completa mediante el uso de varios componentes creados en Polymer.
 
 !["Tienda online"](images/tienda.png "Tienda online")
 
-Como podemos observar, con Polymer se pueden hacer todo tipo de aplicaciones y reutilizarlas en distintos proyectos. Para poder tener acceso a todos ellos, ¡no dudes en descargarte nuestro tutorial y comenzar a explorar su amplía variedad de elementos paa usarlos en tus futuros proyectos!
+Como podemos observar, con Polymer se pueden hacer todo tipo de aplicaciones y reutilizarlas en distintos proyectos. Para poder tener acceso a todos ellos, ¡no dudes en descargarte nuestro tutorial y comenzar a explorar su amplía variedad de elementos para usarlos en tus futuros proyectos!
 
 
 
