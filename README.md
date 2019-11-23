@@ -67,8 +67,8 @@ Lo primero que debemos hacer es dirgirnos a nuestro [repositorio]. A continuaciÃ
 
 - Clonarlo en tu propio repositorio local de Git. Para ello en la carpeta donde quieras inicializar el repositorio:
 
-* Abrir un terminal y ejecutar el comando ```git init```.
-* Ejecutar el comando ```git clone https://github.com/JoseManuelAlcaldeLlergo/Polymer.git```
+    * Abrir un terminal y ejecutar el comando ```git init```.
+    * Ejecutar el comando ```git clone https://github.com/JoseManuelAlcaldeLlergo/Polymer.git```
 
 !["Â¡Descarga el zip!"](images/git-clone.png "Descargar zip del repositorio")
 
