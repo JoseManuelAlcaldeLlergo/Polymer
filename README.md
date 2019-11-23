@@ -61,11 +61,11 @@ Ahora que ya tenemos instalado Polymer en nuestro equipo vamos a ver cómo despl
 
 Lo primero que debemos hacer es dirgirnos a nuestro [repositorio]. A continuación, debemos clonar su contenido, lo cual podemos hacerlo de dos maneras:
 
-1. Descargar el comprimido con su contenido dandole a la opción *Clone or download* y seleccionar *DOWNLOAD ZIP*
+- Descargar el comprimido con su contenido dandole a la opción *Clone or download* y seleccionar *DOWNLOAD ZIP*.
 
 !["¡Descarga el zip!"](images/github.png "Descargar zip del repositorio")
 
-2. Clonarlo en tu propio repositorio local de Git. Para ello en la carpeta donde quieras inicializar el repositorio:
+- Clonarlo en tu propio repositorio local de Git. Para ello en la carpeta donde quieras inicializar el repositorio:
 
 * Abrir un terminal y ejecutar el comando ```git init```.
 * Ejecutar el comando ```git clone https://github.com/JoseManuelAlcaldeLlergo/Polymer.git```
@@ -95,7 +95,7 @@ Una vez hecho esto, tendrás acceso a nuestro tutorial, en el que podrás ver c�
 !["Modo nocturno"](images/gato-nocturno.png "Modo nocturno activo con dark-toogle-mode")
 
 
-* [model-viewer] creadp por [GoogleWebComponets], permite renderizar modelos 3D de manera interactiva. 
+* [model-viewer] creado por [GoogleWebComponets], permite renderizar modelos 3D de manera interactiva. 
 
 !["Modelo 3D de un astronauta"](images/astronauta.png "Modelo 3D de un astronauta")
 
