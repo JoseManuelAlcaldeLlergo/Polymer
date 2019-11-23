@@ -24,13 +24,13 @@ $_documentContainer.innerHTML = `<dom-module id="shared-styles">
       }
 
       .circle {
+        color: white;
         display: inline-block;
         width: 64px;
         height: 64px;
         text-align: center;
-        color: #555;
+        background-image: linear-gradient(#5dade2,#d7bde2);
         border-radius: 50%;
-        background: #ddd;
         font-size: 30px;
         line-height: 64px;
       }
