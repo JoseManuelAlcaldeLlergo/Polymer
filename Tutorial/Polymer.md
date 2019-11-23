@@ -82,7 +82,7 @@ Polymer nos proporciona un amplio catálogo de elementos divididos en secciones 
 
 * El soporte de Web Components todavía es muy bajo. Sólo Google Chrome los implementa totalmente.
 
-* Como Web Components es un estandar que esta aún en desarrollo, es muy probables que las aplicaciones que se realicen ahora mismo con Polymer se tengan que estar actualizando y modificando a menudo.
+* Como Web Components es un estandar que esta aún en desarrollo, por lo que es muy probable que las aplicaciones que se realicen ahora mismo con Polymer se tengan que estar actualizando y modificando a menudo.
 
 
 [W3C]: https://www.w3c.es 
