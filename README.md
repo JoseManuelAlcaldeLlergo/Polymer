@@ -5,7 +5,7 @@ Este proyecto ha sido realizado por José Manuel Alcalde Llergo ([JoseManuelAlca
 
 # Instalar tutorial
 
-Para desarrollar nuestro tutorial, ¿qué mejor que hacerlo en el propio Polymer?. En primer lugar veamos como podemos instalar Polymer en nuestro equipo, para después poder desplegar nuestro tutorial personalizado de Polymer.
+Para desarrollar nuestro tutorial, ¿qué mejor que hacerlo en el propio Polymer? En primer lugar veamos cómo podemos instalar Polymer en nuestro equipo, para después poder desplegar nuestro tutorial personalizado de Polymer.
 
 ## 1 ¿Cómo instalar Polymer?
 
@@ -76,7 +76,7 @@ Una vez aquí, nos encontramos que en nuestra carpeta tenemos todos los archivos
 
 ### 2.2 Desplegar el tutorial
 
-Para desplegar el tutorial, en el directorio *tutorial* debemos hacer:
+Para desplegar el tutorial, en el directorio *Tutorial* debemos hacer:
 
 1. Abrir un terminal, y ejecutar el comando ```npm install``` para instalar las dependencias de Polymer necesarias. Esto puede tardar unos minutos.
 2. Ejecutar el comando ```polymer serve -o``` para abrir directamente nuestro tutorial en vuestro navegador predeterminado.
@@ -87,7 +87,7 @@ Una vez hecho esto, tendrás acceso a nuestro tutorial, en el que podrás ver c�
 
 ¿Y por qué usar Polymer? Con él podemos hacer multitud de cosas, desde componentes sencillos como los que expondremos en el tutorial hasta montar una tienda y modelar figuras en 3D. Veamos aquí algunos ejemplos del potencial que tiene:
 
-* [dark-mode-toogle] creado por [GoogleChromeLabs], un componente que permite añadir un selector de modo diurno a modo nocturno con un simle click. Trabajaremos con ella en nuestro tutorial.
+* [dark-mode-toogle] creado por [GoogleChromeLabs], un componente que permite añadir un selector de modo diurno a modo nocturno con un simple click. Trabajaremos con él en nuestro tutorial.
 
 
 !["Modo diurno"](images/gato-diurno.png "Modo diurno con dark-mode-toogle") 
@@ -95,7 +95,7 @@ Una vez hecho esto, tendrás acceso a nuestro tutorial, en el que podrás ver c�
 !["Modo nocturno"](images/gato-nocturno.png "Modo nocturno activo con dark-toogle-mode")
 
 
-* [model-viewer] creado por [GoogleWebComponets], permite renderizar modelos 3D de manera interactiva. 
+* [model-viewer] creado por [GoogleWebComponets], permite renderizar modelos 3D y visualizarlos de manera interactiva. 
 
 !["Modelo 3D de un astronauta"](images/astronauta.png "Modelo 3D de un astronauta")
 
@@ -104,7 +104,7 @@ Una vez hecho esto, tendrás acceso a nuestro tutorial, en el que podrás ver c�
 
 !["Tienda online"](images/tienda.png "Tienda online")
 
-Como podemos observar, con Polymer se pueden hacer todo tipo de aplicaciones y reutilizarlas en distintos proyectos. Para poder tener acceso a todos ellos, ¡no dudes en descargarte nuestro tutorial y comenzar a explorar su amplía variedad de elementos para usarlos en tus futuros proyectos!
+Como podemos observar, con Polymer se pueden hacer todo tipo de aplicaciones y reutilizarlas en distintos proyectos. Para poder tener acceso a todos ellos, no dudes en descargarte nuestro tutorial y comenzar a explorar su amplía variedad de elementos para usarlos en tus futuros proyectos.
 
 
 
