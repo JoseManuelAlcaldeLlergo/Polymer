@@ -20,5 +20,15 @@ Por último, solo nos falta crear nuestras propias vistas. Para ello, aprovecham
 
 De esta manera, podemos ver que a partir del starter kit que nos aporta Polymer, es relativamente sencillo crear una aplicación funcional, que en nuestro caso nos ha permitido documentar y mostrar un poco el potencial de esta herramienta.
 
+## ¿Cómo desplegar este ejemplo?
+
+Para ello deberá seguir los siguientes pasos:
+
+* Dirijase al directorio Tutorial que se encuentra en la carpeta del repositorio descargado anteriormente.
+* Abrir un terminal y ejecutar el comando ```npm install``` para instalar las dependencias necesarias.
+* Ejecutar el comando ```polymer serve -o``` para desplegar la aplicación en su navegador predeterminado.
+
+Una vez aquí puede observar el resultado obtenido de nuestro ejemplo.
+
 [wc-markdown]: https://www.webcomponents.org/element/@vanillawc/wc-markdown
 [vanillawc]: https://www.webcomponents.org/author/vanillawc
