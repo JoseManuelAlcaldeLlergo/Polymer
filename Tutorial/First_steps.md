@@ -68,7 +68,7 @@ Como se puede apreciar, se está utilizando el sistema de gestión de paquetes n
 
 * **package.json**: contiene la información acerca de las dependencias (ficheros y librerías de terceros) que estamos utilizando en el proyecto. Este fichero es el que indicará a npm las dependencias que debe instalar para poder lanzar correctamente la aplicación de Polymer.
 
-* **polymer.json**: información para que la interfaz de polymer sepa cómo es nuestro proyecto.
+* **polymer.json**: información para que la interfaz de polymer sepa cómo es nuestro proyecto. Con él configuramos el comportamiento de las herramientas del Polymer-CLI en nuestro proyecto.
 
 * **README.md**: contiene un pequeño tutorial de cómo utilizar lo generado por polymer y enlaces a información adicional.
 
