@@ -108,3 +108,13 @@ Básicamente, hemos creado dos funciones para lograr esto:
 * *aparece()*: se encarga de mostrar el formulario para introducir los datos de la imagen.
 
 Con esto, finalmente hemos logrado mostrar un pequeño ejemplo sencillo de cómo un componente de Polymer puede integrarse y manipularse fácilmente en tus proyectos, dándole a los mismos un sin fin de funcionalidades con el simple hecho de añadir unas pocas líneas de código. 
+
+## ¿Cómo desplegar este ejemplo?
+
+Para ello deberá seguir los siguientes pasos:
+
+* Dirijase al directorio ejemplo-2_DarkToggle que se encuentra en la carpeta del repositorio descargado anteriormente.
+* Abrir un terminal y ejecutar el comando ```npm install``` para instalar las dependencias necesarias.
+* Ejecutar el comando ```polymer serve -o``` para desplegar la aplicación en su navegador predeterminado.
+
+Una vez aquí puede observar el resultado obtenido de nuestro ejemplo.
