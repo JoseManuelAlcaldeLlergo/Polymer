@@ -113,7 +113,7 @@ Con esto, finalmente hemos logrado mostrar un pequeño ejemplo sencillo de cómo
 
 Para ello deberá seguir los siguientes pasos:
 
-* Dirijase al directorio ejemplo-2_DarkToggle que se encuentra en la carpeta del repositorio descargado anteriormente.
+* Dirijase al directorio ejemplo-2-Dark-Mode-Toggle que se encuentra en la carpeta del repositorio descargado anteriormente.
 * Abrir un terminal y ejecutar el comando ```npm install``` para instalar las dependencias necesarias.
 * Ejecutar el comando ```polymer serve -o``` para desplegar la aplicación en su navegador predeterminado.
 
