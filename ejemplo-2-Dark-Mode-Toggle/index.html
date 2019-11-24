@@ -1,131 +1,125 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
-    <meta name="description" content="example of using components">
+import {html, PolymerElement} from '@polymer/polymer/polymer-element.js';
+import '@polymer/paper-tooltip/paper-tooltip.js';
+import '@polymer/paper-toolbar/paper-toolbar.js';
+import '@polymer/iron-icon/iron-icon.js';
+import '@polymer/paper-icon-button/paper-icon-button.js';
+import '@polymer/iron-icons/iron-icons.js';
+import '@polymer/iron-image/iron-image.js';
+import * as DarkModeToggle from './node_modules/dark-mode-toggle';
 
-    <title>prueba-2</title>
+/**
+ * @customElement
+ * @polymer
+ */
+class Prueba2App extends PolymerElement {
+  static get template() {
+    return html`
+      <style>
+        :host {
+          display: block;
 
-    <!-- See https://goo.gl/OOhYW5 -->
-    <link rel="manifest" href="/manifest.json">
+        }
+        paper-tooltip {
+          --paper-tooltip-background: #0033FF;
+          --paper-tooltip-delay-out: 150;
+          margin-top: 10px;
+        }
 
-    <link rel="stylesheet" href="common.css">
-    <link rel="stylesheet" href="light.css" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)">
-    <link rel="stylesheet" href="dark.css" media="(prefers-color-scheme: dark)">
-    
-    <script type="module" src=./node_modules/dark-mode-toggle/src/dark-mode-toggle.mjs/></script>
+        #boton {
+          margin: 10px;
+          padding: 10px;
+        }
+        paper-toolbar {
+          --paper-toolbar-background: #330066;
+        }
 
-    <script src="/node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js"></script>
-    <script type="module">import '@polymer/paper-toolbar/paper-toolbar.js';</script>
-    <script type="module">import '@polymer/iron-icon/iron-icon.js';</script>
-    <script type="module">import '@polymer/iron-icons/iron-icons.js';</script>
-    <script type="module">import '@polymer/paper-icon-button/paper-icon-button.js';</script>
+        .icono{
+          width: 50px;
+          height: 50px;
+          margin-bottom: 7px;
+        }
 
-    <script type="module" src="./prueba-2-app.js" crossorigin></script>
+        .linea {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
 
-    <style>
-       #CajaFormulario{
-          border: 1px solid black;
+        .container {
+          width:450px;
+          height:250px;
           border-radius: 40px;
           overflow: hidden;
-          box-shadow: 0 1px 4px 0 var(--shadow-color, hsla(0, 0%, 0%, 0.1)), 0 0px 4px 0 var(--shadow-color, hsla(0, 0%, 0%, 0.1)); 
-          width:23%;
-          padding: 1%;
+          box-shadow: 0 1px 4px 0 var(--shadow-color, hsla(0, 0%, 0%, 0.1)), 0 0px 4px 0 var(--shadow-color, hsla(0, 0%, 0%, 0.1));
+          margin: 10px;
+        }
+        .img {
+          display: inline block;
+          padding: 5px;
+        }
+        .text {
+          padding: 12px 16px;
+          border-top: 1px solid #ededed;
+          flex: 1 0;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background: var(--backgroundText-color);
+
+        }
+        .centrado {
           text-align: center;
-          margin-left: 2%;
-          display: none;
-      }
-      #boton{
-      	margin-left: 3%;
-      }
-    </style>
-
-    <script>
-
-      function anadirImagen(){
-        
-        var name=document.getElementById("Modelo").value;
-        var shape=document.getElementById("icono").value;
-        var path=document.getElementById("ruta").value;
-        var cont=document.getElementById("contador").value;
-        var condicion=document.getElementById("linea").value;
-        var a;
-
-        if(condicion=='true'){
-          a=document.getElementById('linea3');
-          a.innerHTML+='<div class="linea"><prueba-2-app nombre="'+name+'" forma="'+shape+'" ruta="'+path+'" contador='+cont+'></prueba-2-app></div>';
         }
-        else{
-          a=document.getElementById('linea2');
-          a.innerHTML+='<prueba-2-app nombre="'+name+'" forma="'+shape+'" ruta="'+path+'" contador='+cont+'></prueba-2-app>';
+        img { 
+          width: 250px;
+          height: 160px;
         }
-        var p=document.getElementById("CajaFormulario");
-        p.style.display='none';
-      }
+             
+      </style>
 
-      function aparece(){
-        var p=document.getElementById("CajaFormulario");
-        p.style.display="block";
-      }
-    </script>
-
-
-  </head>
-  <body>
-
-    <paper-toolbar>
-      <paper-icon-button slot="top" icon="menu"></paper-icon-button>
-      <span slot="top" class="title">SEGUNDO EJEMPLO DEL TUTORIAL!</span>
-      <paper-icon-button slot="top" icon="favorite"></paper-icon-button>
-    </paper-toolbar>
-
-  <dark-mode-toggle
-      id="dark-mode-toggle-1"
-      legend="Theme Switcher"
-      appearance="switch"
-      dark="Dark"
-      light="Light"
-  ></dark-mode-toggle>
-
-  <div id="ejemploInsertar">
-      <div class="linea" id="linea1">
-        <prueba-2-app nombre="Lamborghini Huracán 2014. LP 580-2." forma="favorite" ruta="./src/prueba-2-app/img/foto-1.jpeg" contador= 2></prueba-2-app>
-        <prueba-2-app nombre="Ferrari" forma="star" ruta="./src/prueba-2-app/img/foto-2.jpeg"></prueba-2-app>
-        <prueba-2-app nombre="Porshe" forma="thumb-up" ruta="./src/prueba-2-app/img/foto-3.jpg" contador= 12 ></prueba-2-app>
+      <div class="linea">
+          <div class="container">
+            <section class="img">
+            <center>
+              <img src="[[ruta]]">
+            </center>
+            </section>
+            <section class="text">
+              <p class="centrado">[[nombre]]</p>
+              <paper-icon-button slot="top" icon="[[forma]]" class="icono" on-click="function"></paper-icon-button>
+              <p>[[contador]]</p>
+            </section>
+          </div>
       </div>
 
-      <br/>
-
-      <div id="linea2" class="linea">
-        <prueba-2-app nombre="Volkswagen New Beetle" forma="cloud" ruta="./src/prueba-2-app/img/foto-4.jpg" contador= 5 ></prueba-2-app>
-    </div>
-
-    <div id="linea3">
-    </div>
-    
-  </div>
-
-    <div id="CajaFormulario">
-      <form id=RellenarDatos>
-        <p>Introduzca el modelo del coche</p>
-        <input type="text" id="Modelo" value=""/>
-        <p>Introduzca el icono del contador</p>
-        <input type="text" id="icono" value=""/>
-        <p>Introduzca la ruta de la imagen</p>
-        <input type="text" id="ruta" value=""/>
-        <p>Introduzca el contador inicial</p>
-        <input type="text" id="contador" value=""/>
-        <p>¿Lo quiere en una linea nueva?</p>
-        <input type="text" name="Radio"id="linea" value=""/>
-      </form>
-      <button id="boton" onclick="anadirImagen()">Agregar</button>
-      <paper-tooltip for="boton_mas" position="right">Agrega un nuevo coche a la galeria</paper-tooltip>
-    </div>
-    <button id="boton" onclick="aparece()">A&ntilde;adir</button>
+    `;
+  }
+  static get properties() {
+    return {
+      nombre: {
+        type: String,
+        value: "cadena"
+      },
+      forma: {
+        type: String,
+        value: "cadena"
+      },
+      ruta: {
+        type: String,
+        value: "ninguna"
+      },
+      contador: {
+        type: Number,
+        value: 0
+      }
+    };
+  }
+  function() {
+    this.contador++;
+  }
+}
 
 
 
 
-  </body>
-</html>
+window.customElements.define('prueba-2-app', Prueba2App);
