@@ -112,5 +112,15 @@ A continuación podemos ver el contenido del fichero completo:
 
 De esta manera en una simple línea, como mostramos ya en el html, podremos recurrir a la funcionalidad que ofrece nuestro componente.
 
+## ¿Cómo desplegar este ejemplo?
+
+Para ello deberá seguir los siguientes pasos:
+
+* Dirijase al directorio ejemplo-1 que se encuentra en la carpeta del repositorio descargado anteriormente.
+* Abrir un terminal y ejecutar el comando ```npm install``` para instalar las dependencias necesarias.
+* Ejecutar el comando ```polymer serve -o``` para desplegar la aplicación en su navegador predeterminado.
+
+Una vez aquí puede observar el resultado obtenido de nuestro ejemplo.
+
 [npm]: https://devcode.la/blog/que-es-npm/
 [Node.js]: https://nodejs.org/es/about/
